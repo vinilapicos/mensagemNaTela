@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="author" content="Vinicius Carvalho">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <title>Passe a mensagem</title>
+</head>
+<body>
+    <div class="container">
+        <div class="mensagem">
+            <p >
+                <h3 id="h3">Passe a mensagem</h3>
+            </p>
+            <p id="input">
+                <label for="mensagemInput">Digite a mensagem</label>
+                <br>
+                <button id="icon"><i class="far fa-envelope"></i></button>
+                <input id="mensagemInput" type="text">
+            </p>
+            <p id="enviar">
+                <button onClick="pegarMensagem()">Enviar</button>
+            </p>
+            <p id="mensagemOutput"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
